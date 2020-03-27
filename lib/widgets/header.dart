@@ -6,7 +6,7 @@ AppBar header(context, {bool isAppTitle = false, String titleText}) {
       isAppTitle ? 'FlutterShare' : titleText,
       style: TextStyle(
           color: Colors.white,
-          fontFamily: isAppTitle ? 'Signatra' : "",
+          fontFamily: isAppTitle ? 'Signatra' : '',
           fontSize: isAppTitle ? 50.0 : 22.0),
     ),
     centerTitle: true,
