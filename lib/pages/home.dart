@@ -46,8 +46,12 @@ class _HomeState extends State<Home> {
     googleSignIn.signIn();
   }
 
+  logout() {
+    googleSignIn.signOut();
+  }
+
   Widget buildAuthScreen() {
-    return Text('Authenticated');
+    return RaisedButton(child: Text('Logout'), onPressed: logout);
   }
 
   Scaffold buildUnAuthScreen() {
