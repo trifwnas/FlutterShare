@@ -19,8 +19,7 @@ class _TimelineState extends State<Timeline> {
   }
 
   getUsers() async {
-    final QuerySnapshot snapshot =
-        await usersRef.orderBy("postsCount", descending: false).getDocuments();
+    final QuerySnapshot snapshot = await usersRef.limit(2).getDocuments();
 
     snapshot.documents.forEach((DocumentSnapshot doc) {
       print(doc.data);
