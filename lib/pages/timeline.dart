@@ -46,10 +46,20 @@ class _TimelineState extends State<Timeline> {
   Widget build(context) {
     return Scaffold(
         appBar: header(context, isAppTitle: true),
-        body: Container(
-          child: ListView(
-            children: users.map((user) => Text(user['username'])).toList(),
-          ),
-        ));
+        body: FutureBuilder<QuerySnapshot>(
+            future: usersRef.getDocuments(),
+            builder: (context, snapshot) {
+              if (!snapshot.hasData) {
+                return circularProgress();
+              }
+              final List<Text> children = snapshot.data.documents
+                  .map((doc) => Text(doc['username']))
+                  .toList();
+              return Container(
+                child: ListView(
+                  children: children,
+                ),
+              );
+            }));
   }
 }
