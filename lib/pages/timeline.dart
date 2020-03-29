@@ -14,7 +14,32 @@ class _TimelineState extends State<Timeline> {
   @override
   void initState() {
     // getuserById();
+    // createUser();
+    // updateUser();
+    deleteUser();
     super.initState();
+  }
+
+  createUser() {
+    usersRef
+        .document("asdasda")
+        .setData({"username": "Jeff", "postsCount": 0, "isAdmin": false});
+  }
+
+  updateUser() async {
+    final doc = await usersRef.document("1LAGsB8EGK5q6A6IYoXF").get();
+    if (doc.exists) {
+      doc.reference
+          .updateData({"username": "John", "postsCount": 0, "isAdmin": false});
+    }
+  }
+
+  deleteUser() async {
+    final DocumentSnapshot doc =
+        await usersRef.document("1LAGsB8EGK5q6A6IYoXF").get();
+    if (doc.exists) {
+      doc.reference.delete();
+    }
   }
 
   // getuserById() async {
