@@ -74,3 +74,5 @@ android/.gradle/4.10.2/fileHashes/fileHashes.lock
 android/.gradle/4.10.2/taskHistory/taskHistory.bin
 android/.gradle/4.10.2/taskHistory/taskHistory.lock
 android/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
