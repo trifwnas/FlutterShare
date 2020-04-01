@@ -72,7 +72,7 @@ class _EditProfileState extends State<EditProfile> {
           ),
         ),
         TextField(
-          controller: displayNameController,
+          controller: bioController,
           decoration: InputDecoration(
             hintText: "Update Bio",
           ),
