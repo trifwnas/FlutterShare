@@ -5,7 +5,7 @@ import 'package:fluttershare/models/user.dart';
 // import 'package:fluttershare/pages/timeline.dart';
 import 'package:fluttershare/widgets/progress.dart';
 import 'home.dart';
-import 'profile.dart';
+// import 'profile.dart';
 
 class EditProfile extends StatefulWidget {
   final String currentUserId;
