@@ -9,13 +9,13 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'activity_feed.dart';
 import 'profile.dart';
 import 'search.dart';
-// import 'timeline.dart';
 import 'upload.dart';
 
 final GoogleSignIn googleSignIn = GoogleSignIn();
 final StorageReference storageRef = FirebaseStorage.instance.ref();
 final usersRef = Firestore.instance.collection('users');
 final postsRef = Firestore.instance.collection('posts');
+final commentsRef = Firestore.instance.collection('comments');
 final DateTime timestamp = DateTime.now();
 User currentUser;
 
