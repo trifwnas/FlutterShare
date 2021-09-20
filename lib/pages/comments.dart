@@ -96,9 +96,9 @@ class CommentsState extends State<Comments> {
               controller: commentController,
               decoration: InputDecoration(labelText: "Write a comment..."),
             ),
-            trailing: OutlineButton(
+            trailing: OutlinedButton(
               onPressed: addComment,
-              borderSide: BorderSide.none,
+              //style: BorderSide.none,
               child: Text("Post"),
             ),
           ),

@@ -105,7 +105,8 @@ class _EditProfileState extends State<EditProfile> {
         "bio": bioController.text,
       });
       SnackBar snackbar = SnackBar(content: Text("Profile updated!"));
-      _scaffoldKey.currentState.showSnackBar(snackbar);
+      //_scaffoldKey.currentState.showSnackBar(snackbar);
+      ScaffoldMessenger(key: _scaffoldKey, child: snackbar);
     }
   }
 
@@ -165,7 +166,7 @@ class _EditProfileState extends State<EditProfile> {
                           ],
                         ),
                       ),
-                      RaisedButton(
+                      ElevatedButton(
                         onPressed: updateProfileData,
                         child: Text(
                           "Update Profile",
@@ -178,7 +179,7 @@ class _EditProfileState extends State<EditProfile> {
                       ),
                       Padding(
                         padding: EdgeInsets.all(16.0),
-                        child: FlatButton.icon(
+                        child: TextButton.icon(
                           onPressed: logout,
                           icon: Icon(Icons.cancel, color: Colors.red),
                           label: Text(
