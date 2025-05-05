@@ -1,3 +1,5 @@
 {
-    "maven.view": "hierarchical"
+    "maven.view": "hierarchical",
+    "IDX.aI.enableInlineCompletion": true,
+    "IDX.aI.enableCodebaseIndexing": true
 }
