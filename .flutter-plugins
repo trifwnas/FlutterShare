@@ -1,13 +1,15 @@
 # This is a generated file; do not edit or check into version control.
-cloud_firestore=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\cloud_firestore-0.9.13+1\\
-firebase_auth=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\firebase_auth-0.8.4+5\\
-firebase_core=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\firebase_core-0.3.4\\
-firebase_messaging=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\firebase_messaging-4.0.0+1\\
-firebase_storage=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\firebase_storage-2.1.1+2\\
-geolocator=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\geolocator-5.0.1\\
-google_api_availability=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\google_api_availability-2.0.1\\
-google_sign_in=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\google_sign_in-4.0.2\\
-image_picker=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\image_picker-0.6.0+10\\
-location_permissions=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\location_permissions-2.0.2\\
-path_provider=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\path_provider-0.5.0+1\\
-sqflite=C:\\Users\\trifw\\AppData\\Roaming\\Pub\\Cache\\hosted\\pub.dartlang.org\\sqflite-1.1.5\\
+cloud_firestore=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.9.13+1/
+firebase_auth=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.8.4+5/
+firebase_core=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.3.4/
+firebase_messaging=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-4.0.0+4/
+firebase_storage=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-2.1.1+2/
+flutter_plugin_android_lifecycle=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.6/
+geolocator=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-5.0.1/
+google_api_availability=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/google_api_availability-2.0.3/
+google_sign_in=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.3.0/
+google_sign_in_web=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.8.4/
+image_picker=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.4/
+location_permissions=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/location_permissions-2.0.5/
+path_provider=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.5.0+1/
+sqflite=/home/trif/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.1.5/
