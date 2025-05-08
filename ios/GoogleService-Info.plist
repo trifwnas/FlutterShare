@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>783556340821-90vlp7d0991hiuij014pr6620p158o1f.apps.googleusercontent.com</string>
+	<string></string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.783556340821-90vlp7d0991hiuij014pr6620p158o1f</string>
+	<string></string>
 	<key>API_KEY</key>
 	<string></string>
 	<key>GCM_SENDER_ID</key>
-	<string>783556340821</string>
+	<string></string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.tryfontzanetis.fluttershare</string>
+	<string></string>
 	<key>PROJECT_ID</key>
-	<string>fluttershare-6f84d</string>
+	<string></string>
 	<key>STORAGE_BUCKET</key>
-	<string>fluttershare-6f84d.appspot.com</string>
+	<string></string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:783556340821:ios:aedf4da3fe904255fbb8dc</string>
+	<string></string>
 	<key>DATABASE_URL</key>
-	<string>https://fluttershare-6f84d.firebaseio.com</string>
+	<string>/string>
 </dict>
 </plist>
